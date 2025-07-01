@@ -9,7 +9,7 @@ nav{
     flex-direction: row;
     justify-content:space-between ;
     align-items:center ;
-    background-color: black;
+  background-color: rgb(16, 12, 12);
     color: white;
     font-weight:bold;
 }
@@ -58,7 +58,8 @@ nav .lo a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(16, 12, 12);
+  
 
 }
 
@@ -77,7 +78,7 @@ nav .lo a{
 .titre1 .h2{
     font-size:30px;
     font-weight: bold;
-    color: blue;
+    color: rgb(49, 106, 213);
 }
 .titre1 .p{
     color: white;
@@ -88,28 +89,128 @@ nav .lo a{
 
 .img{
    
-  border: solid black;
   width: 50%;
-  background-color: black;
+  background-color: rgb(16, 12, 12);
 
- 
 }
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 30vh;
-    border: solid red;
+    height: 23vh;
+    background-color: black;
+    
+    
+
   
 }
 
 .col1{
    border: solid black;
    width: 30%;
+   margin-left: 3px;
+   display:flex;
+   flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  padding: 5px 0px;
+  gap: 3px;
+  background-color: black;
+
 }
 
+.col1 span{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.col1 .but1{
+    padding:10px 57px;
+    border-radius: 12px;
+    background-color:  rgb(49, 106, 213);
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.col1 .but2{
+    padding:10px 20px;
+    border-radius: 12px;
+    background-color:  rgb(49, 106, 213);
+    color: white;
+    font-weight: bold;
+
+}
+
+.col1 .but3{
+    padding:10px 57px; 
+    border-radius: 12px;
+    background-color:  rgb(49, 106, 213);
+    color: white;
+    font-weight: bold;
+
+
+}
+
+button{
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
 .col2{
-    border: solid orange;
    width: 70%;
+   display: flex;
+   flex-direction: column;
+}
+
+.img{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+   
+}
+
+.im1{
+ 
+    padding-top: 40px;
+    padding-left: 160px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
+
+}
+
+
+.im2{
+   
+    padding-top: 40px;
+    padding-left: 160px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+
+.im3{
+   
+    padding-top: 40px;
+    padding-left: 160px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+
+
+.our{
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   padding-top: 10px;
+   width: 30%;
+
 }
